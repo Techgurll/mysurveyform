@@ -1,0 +1,165 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+
+}
+
+body{
+    background: white;
+    font-size: 1.2rem;
+}
+
+.survey{
+    width: 80vw;
+   
+    color: #fff;
+    top: 60%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    padding-top: 1rem;
+    
+    background: darkcyan;
+    
+    }
+
+    .surveyheader{
+        background: white;
+        width: 30rem;
+        height: 10rem;
+        border-radius: 2rem;
+margin-left: 20rem;
+color: darkcyan;
+    }
+    
+#title{
+    padding-bottom: 1rem;
+    padding-top: 2rem;
+}
+#surveyform{
+    padding-top: 2rem;
+}
+
+#name .nameinput{
+    
+   display: inline-block;
+   margin-bottom: 1rem;
+}
+
+input[type=text]{
+    width: 15rem;
+    height: 2rem;
+    border-radius: 0.5rem;
+    
+}
+
+input[type=number]{
+    width: 14.5rem;
+    height: 2rem;
+    border-radius: 0.5rem;
+    margin-right: 1rem;
+}
+
+input[type=radio]{
+vertical-align: -1.5px;
+margin: 0.5rem}
+
+input[type=checkbox]{
+    vertical-align: -1.5px;
+    margin: 0.5rem}
+    
+#email .emailinput{
+    
+    display: inline-block;
+    margin-bottom: 1rem;
+}
+
+#number .numberinput{
+    
+    display: inline-block;
+
+
+}
+#number{
+    margin-left: 1rem;   
+}
+
+
+  
+ 
+  
+  
+#dropdown{
+    margin-right: 2.3rem;
+    margin-bottom: 1rem;
+}
+
+.dropselect{
+     
+    
+    
+  
+    
+    display: inline-block;
+    margin-left: 1rem;
+  }
+
+  .radioselect{
+    margin-left: 1rem;
+  }
+  .checklabel{
+    margin-left: 1rem;
+  }
+
+  
+  
+  .dropselect .select{
+
+    
+    background:url('arrow.png') no-repeat;
+    margin-top: 1.5rem;
+    
+    
+  }
+  
+  
+.radio .radioselect{
+    
+    display: inline-block;
+    margin-bottom: 1rem;
+}
+
+.checkbox .checklabel{
+    
+    display: inline-block;
+    margin-bottom: 2rem;
+}
+
+.textarea{
+     width: 300px; height: 75px ;
+     margin-bottom: 1rem;
+     color: darkcyan;
+     border-radius: 0.5rem;
+     text-align: center;
+}
+
+button[submit] {
+    color: darkcyan;
+    width: 7rem;
+    height: 2rem;
+    border: none;
+    background: white;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    margin-bottom: 1rem;
+}
+
+@media(max-width:768px) {
+    .surveyheader{
+        width: 20rem;
+        height: 13rem;
+        margin-left: 3rem;
+    }
+}
