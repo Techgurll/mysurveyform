@@ -158,8 +158,10 @@ button[submit] {
 
 @media(max-width:768px) {
     .surveyheader{
+        overflow: hidden;
         width: 20rem;
         height: 13rem;
         margin-left: 3rem;
     }
+
 }
