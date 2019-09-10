@@ -32,6 +32,7 @@ body{
         border-radius: 2rem;
 margin-left: 20rem;
 color: darkcyan;
+
     }
     
 #title{
@@ -86,9 +87,14 @@ input[type=checkbox]{
     margin-left: 1rem;   
 }
 
+.avatar {
 
-  
- 
+    border-radius: 4rem;
+    width: 7rem;
+    height: 7rem;
+    margin-bottom: -2rem;
+    
+}
   
   
 #dropdown{
@@ -155,6 +161,8 @@ button[submit] {
     cursor: pointer;
     margin-bottom: 1rem;
 }
+
+
 
 @media(max-width:768px) {
     .surveyheader{
