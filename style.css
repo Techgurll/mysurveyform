@@ -201,30 +201,4 @@ button[submit] {
     .textarea{
         width: 15rem;
     }
-   /* body{
-        overflow: hidden;
-        width: 100vw;
-    }
-    .surveyheader{
-        overflow: hidden;
-       margin: 0;
-        margin-left: 13rem;
-        width: 20rem;
-        height: 13rem;
-    }
-
-/* Smartphones 
-    @media(max-width:500px) {
-        .surveyheader{
-            width: 20rem;
-        height: 13rem;
-        margin: 0;
-        margin-left: 9rem;
-        }
-        .numberinput{
-    
-            display: inline-block;
-        
-        
-        }
-}*/
+  
