@@ -25,24 +25,24 @@
         </p>
       </div>
 
-      <form id="surveyform">
+      <form name="surveyform" method="POST" data-netlify="true" id="surveyform">
         <div id="name">
           <label> Name: </label>
 
           <div class="nameinput">
-            <input type="text" />
+            <input type="text" name="name" />
           </div>
         </div>
         <div id="email">
           <label> Email: </label>
           <div class="emailinput">
-            <input type="text" />
+            <input type="text" name="email" />
           </div>
         </div>
         <div id="number">
           <label> Number: </label>
           <div class="numberinput">
-            <input type="number" min="1" max="10 " />
+            <input type="number" name="number" min="1" max="10 " />
           </div>
         </div>
 
@@ -50,8 +50,8 @@
           <label> Select Favorite Meal: </label>
           <div class="dropselect">
             <div class="select">
-              <select name="search_categories" id="search_categories">
-                <option value="1" selected="selected">Basmati Rice</option>
+              <select name="role[]" >
+                <option value="1" >Basmati Rice</option>
                 <option value="2">Fried Rice</option>
                 <option value="3"> Jollof Rice</option>
                 <option value="4">Pancakes </option
@@ -76,25 +76,25 @@
           <div class="checklabel">
             <label>
               Wing
-              <input type="checkbox" />
+              <input type="checkbox" name="wing"/>
             </label>
 
             <label>
               Rice
-              <input type="checkbox" />
+              <input type="checkbox" name="rice"/>
             </label>
 
             <label>
               Coleslaw
-              <input type="checkbox" />
+              <input type="checkbox" name="coleslaw"/>
             </label>
           </div>
         </div>
 
         <div>
-          <textarea class="textarea"> Enter Your Comments Here </textarea>
+          <textarea class="textarea" name="message"> Enter Your Comments Here </textarea>
         </div>
-        <div><button submit>Submit</button></div>
+        <div><button type="submit" submit>Submit</button></div>
       </form>
     </div>
   </body>
