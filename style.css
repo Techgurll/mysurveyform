@@ -8,31 +8,32 @@
 body{
     background: white;
     font-size: 1.2rem;
+    
 }
 
 .survey{
     width: 80vw;
-   
+    
     color: #fff;
     top: 60%;
     left: 50%;
     position: absolute;
     transform: translate(-50%,-50%);
     text-align: center;
-    padding-top: 1rem;
-    
+  
     background: darkcyan;
     
     }
 
     .surveyheader{
         background: white;
+        width: 50vw;
         height: 25vh;
-       width: 50vw;
         border-radius: 2rem;
         margin: auto;
+        padding: 2rem;
 color: darkcyan;
-padding: 2rem;
+
 
     }
     
@@ -93,7 +94,7 @@ input[type=checkbox]{
     border-radius: 4rem;
     width: 7rem;
     height: 7rem;
-    margin-bottom: -2rem;
+    margin-bottom: -4rem;
     
 }
   
@@ -163,11 +164,44 @@ button[submit] {
     margin-bottom: 1rem;
 }
 
-/* Tablet
+/* Tablet */
 
-@media (min-width:501px) and (max-width:768px) {
+@media (max-width: 500px) {
+    .surveyheader{
+        height: 35vh;
+       
+    }
+    input[type=number]{
+        width: 13rem;
+        
+}
 
-    body{
+@media (max-width: 375px) {
+    .surveyheader{
+        height: 40vh;
+        margin-top: 5rem;
+       }
+
+       input[type=number]{
+        width: 10rem;
+    margin-bottom: 2rem;}
+        
+
+    input[type=text]{
+        width: 11rem;
+    }
+        
+.dropselect .select{
+    margin: 0;
+    margin-top: 0.5rem;
+
+
+    }
+
+    .textarea{
+        width: 15rem;
+    }
+   /* body{
         overflow: hidden;
         width: 100vw;
     }
