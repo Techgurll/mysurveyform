@@ -167,6 +167,9 @@ button[submit] {
 /* Tablet */
 
 @media (max-width: 500px) {
+    .survey{
+        margin-top: 2rem;
+    }
     .surveyheader{
         height: 35vh;
        
